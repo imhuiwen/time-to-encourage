@@ -28,6 +28,12 @@ counter += 1
 if each_word == "angry":
 feelings_list.append("angry")
 encouragement_list.append("to calm down and chill")
+if each_word == "stressed":
+feelings_list.append("stressed")
+encouragement_list.append("to don't stress, breathe in and breathe out")
+if each_word == "fustrated":
+feelings_list.append("fustrated")
+encouragement_list.append("to relax and chill")
 counter += 1
 if counter == 0:
 output = "Sorry I don't really understand. Please use different words?"
